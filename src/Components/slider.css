@@ -1,0 +1,39 @@
+.slider__box{
+    width: 750px;
+    height:100px;
+    margin:50px; 
+    padding:10px; 
+    background-color:#fcfcfc; 
+    display:flex; 
+    flex-direction: column; 
+    align-items:center; 
+    box-shadow:0px 1px 5px black;
+}
+
+.slider__container{
+    width: 700px; 
+    height:60px; 
+    display:flex;
+    align-items:center; 
+}
+
+.slider{
+    height:5px;  
+    background-color:#000;
+    display:flex;
+    justify-content:space-between;
+    align-items:center; 
+    border-radius:10px;
+}
+
+.slider__ball{
+    width: 20px; 
+    height:20px;
+    background-color:#000;
+    border-radius:10px;
+}
+
+.slider__text{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
